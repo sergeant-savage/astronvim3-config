@@ -1,6 +1,6 @@
-# AstroNvim User Configuration Example
+# Sergeant-Savage's AstroNvim config
 
-A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+My user config for [AstroNvim](https://github.com/AstroNvim/AstroNvim). The font I use is [Cascadia Code](https://www.programmingfonts.org/#cascadia-code).
 
 ## 🛠️ Installation
 
@@ -17,16 +17,10 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 ```
 
-#### Create a new user repository from this template
-
-Press the "Use this template" button above to create a new repository to store your user configuration.
-
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
-
-#### Clone the repository
+#### Clone this repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/user
+git clone https://github.com/sergeant-savage/astronvim3-config ~/.config/nvim/lua/user
 ```
 
 #### Start Neovim
@@ -34,3 +28,7 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/us
 ```shell
 nvim
 ```
+
+## Customizing
+
+Read [the docs](https://astronvim.com/Configuration/config_options)
