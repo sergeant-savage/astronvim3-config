@@ -5,10 +5,7 @@ return {
     "andweeb/presence.nvim",
     lazy = false,
   },
-  { 
-    'Everblush/nvim', 
-    name = 'everblush' 
-  },
+  { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
   -- {
   --   "ray-x/lsp_signature.nvim",
   --   event = "BufRead",
